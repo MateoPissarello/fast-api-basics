@@ -1,7 +1,7 @@
 # Installation
-
+```
 - pip intall -r requirements.txt
-
+```
 
 
 
@@ -10,8 +10,10 @@
     Example
     - uvicorn main:app --port 8001
 ### To not run it with commands add this to yout file
-- if __name__ == "__(file name)__":
+```
+ if __name__ == "__(file name)__":
     uvicorn.run("(file_name):(app name)", port="(port number)")
+```
 - After that just run the file
 
 
